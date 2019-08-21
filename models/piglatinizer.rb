@@ -1,6 +1,6 @@
 
 class PigLatinizer
-  attr_accessor :phrase
+ 
   
   def piglatinize(phrase)
     @split_word = phrase.split("")
